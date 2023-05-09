@@ -10,7 +10,7 @@ var gen = function* () {
     console.log('f2', f2)
 };
 
-function run() {
+function run(gen) {
     var g = gen();
 
     function next(err, data) {
